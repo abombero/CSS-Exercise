@@ -1,0 +1,151 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.header .nav-links {
+	font-weight: normal;
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-links:hover {
+	text-decoration: underline;
+}
+
+.header .menu {
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 27px
+}
+
+.header .usuario {
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 28px
+}
+
+.logo-google {
+	text-align: center;
+}
+
+.logo-google .imagen {
+	width: 28%;
+}
+
+.main {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+    padding-top: 20px
+}
+
+.container .button {
+	border: 1px solid #dfe1e5;
+	border-radius: 4px;
+	font-size: 14px;
+	height: 33px;
+    width: 154px;
+}
+
+.container p {
+	margin-top: 32px;
+	font-family: arial,sans-serif;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: arial,sans-serif;
+}
+
+.footer1 {
+	background-color: #dfe1e5;
+	margin-top: 190px;
+	margin-bottom: 0px;
+	padding: 11px;
+    color: #707070;
+    border-bottom: solid 1px;
+    font-size: 15px;
+}
+
+.footer2 {
+	display: flex;
+	padding: 11px;
+    background-color: #dfe1e5;
+    font-size: 15px;
+}
+
+
+.footer2 .container-footer1 {
+	display: flex;
+	text-decoration: none;
+	color: #707070;
+}
+
+.footer2 .container-footer1 .links-footer-p1 {
+	text-decoration: none;
+	color: #707070;
+	padding-right: 35px;
+}
+
+.footer2 .container-footer2 {
+	position: fixed;
+    right: 16px;
+}
+
+.footer2 .container-footer2 .links-footer-p2 {
+	text-decoration: none;
+	color: #707070;
+	padding-left: 35px;		
+}
+
+.links-footer-p1:hover {
+	text-decoration: underline;
+}
+
+.links-footer-p2:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.container-search {
+	display: flex;
+	justify-content: center;
+}
+
+.container-search .search-engine {
+	padding-top: 13px;
+    width: 548px;
+    margin-top: 20px;
+    border-radius: 24px;
+    border-width: 1px;
+    height: 30px;
+    border: 1px solid #dfe1e5;
+}
+
+.container-search .search-engine .lupita {
+	position: fixed;
+	left: 6px;
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 28px
+}
+
+.container-search .search-engine .mic {
+	position: fixed;
+	right: 6px;
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 50px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,114 @@
+.container-main {
+	display: flex;
+}
+
+.container-main .menu {
+	font-family: sans-serif;
+	padding-left: 24px;
+	overflow-y: scroll;
+	height: 597px;
+	width: 1550px;
+}
+
+
+.container-main .menu h1 {
+	font-size: 33px;
+	position: fixed;
+	background-color: white;
+	padding-top: 3px;
+	margin-top: 0px;
+}
+
+.container-main .menu .title {
+	margin-top: 50px;
+}
+
+.container-main .menu h2 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 18px;
+	border-bottom: 1px solid;
+}
+
+.container-main .menu .links {
+	text-decoration: none !important;
+  	color: black;
+}
+
+.description {
+	padding-left: 66px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.description .normal {
+	line-height: 25px;
+}
+
+.description .formula {
+	background-color: #D5D4D1;
+	padding-left: 10px;
+	font-family: monospace;
+	padding: 20px;
+	line-height: 24px;
+}
+
+.description ul {
+	line-height: 25px;
+}
+
+.description #introduction {
+	padding-bottom: 10px;
+}
+
+.description #already-know {
+	padding-bottom: 10px;
+}
+
+.description #javascript {
+	padding-bottom: 10px;
+}
+
+.description #hello-world {
+	padding-bottom: 10px;
+}
+
+.description #variables {
+	padding-bottom: 10px;
+}
+
+.description #declaring-variables {
+	padding-bottom: 10px;
+}
+
+.description #variable-scope {
+	padding-bottom: 10px;
+}
+
+.description #global-variables {
+	padding-bottom: 10px;
+}
+
+.description #constants {
+	padding-bottom: 10px;
+}
+
+.description #data-types {
+	padding-bottom: 10px;
+}
+
+.description #if {
+	padding-bottom: 10px;
+}
+
+.description #while {
+	padding-bottom: 10px;
+}
+
+.description #function-declaration {
+	padding-bottom: 10px;
+}
+
+.description #reference {
+	padding-bottom: 10px;
+}

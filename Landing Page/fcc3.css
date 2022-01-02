@@ -1,0 +1,152 @@
+body {
+  background: #ECEAE8;
+}
+
+#header {
+  display: flex;
+}
+
+#header #img-header {
+  width: 330px;
+}
+
+#nav-bar {
+  display: flex;
+  text-align: right;
+  flex-grow: 1;
+  padding-top: 8px;
+  }
+
+#nav-bar .containerButtons {
+  flex-grow: 1;
+}
+
+#nav-bar .containerButtons a {
+  padding-left: 10px;
+}
+
+#nav-bar #nav-links {
+  text-decoration: none !important;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+#input-box {
+  width: 400px;
+  padding: 5px;
+}
+
+#submit {
+  margin-top: 20px;
+  background-color: orange;
+  border: none;
+  padding: 6px;
+}
+
+#submit:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 83%;
+}
+
+.container .one {
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.container .one .icono {
+  padding-right: 115px;
+  font-size: 65px;
+  color: orange;
+    width: 50px;
+}
+
+.container .one h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.container .one h2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 4px;
+
+}
+
+.video {
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 49px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container2 .caja {
+  text-align: center;
+  font-family: sans-serif;
+  border: solid;
+  padding-bottom: 13px;
+  width: 300px;
+  border-radius: 7px;
+}
+
+.container2 .caja h1 {
+  background-color: #BCBBB7;
+  font-size: 27px;
+  margin-top: 0px;
+  padding: 11px;
+}
+
+.container2 .caja h3 {
+  font-weight: normal;
+  font-size: 18px;
+
+}
+
+.footer {
+  padding-top: 18px;
+  text-align: right;
+  background-color: #BCBBB7;
+  margin-top: 37px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.footer .links {
+  text-decoration: none !important;
+  color: black;
+  padding-left: 12px;
+  font-size: 19px;
+}
+
+.footer h3 {
+  font-size: 15px;
+  font-weight: normal;
+}

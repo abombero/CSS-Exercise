@@ -1,0 +1,176 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.header .nav-links {
+	font-weight: normal;
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-links:hover {
+	text-decoration: underline;
+}
+
+.header .menu {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 27px
+}
+
+.header .usuario {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 11px;
+    font-size: 28px
+}
+
+.logo-google {
+	text-align: center;
+}
+
+.logo-google .imagen {
+	width: 28%;
+}
+
+.main {
+	text-align: center;
+}
+
+.search-engine {
+	padding-top: 13px;
+    width: 548px;
+    margin-top: 20px;
+    border-radius: 24px;
+
+    border-width: 1px;
+    height: 30px;
+    border: 1px solid #dfe1e5;
+}
+
+input[type-text]:focus {
+	border: none;
+}
+
+
+.container {
+	text-align: center;
+    padding-top: 20px
+}
+
+.container .button {
+	border: 1px solid #dfe1e5;
+	border-radius: 4px;
+	font-size: 14px;
+	height: 33px;
+    width: 154px;
+}
+
+.container p {
+	margin-top: 32px;
+	font-family: arial,sans-serif;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: arial,sans-serif;
+}
+
+.footer1 {
+	background-color: #dfe1e5;
+	margin-top: 190px;
+	margin-bottom: 0px;
+	padding: 11px;
+    color: #707070;
+    border-bottom: solid 1px;
+    font-size: 15px;
+}
+
+.footer2 {
+	display: flex;
+	padding: 11px;
+    background-color: #dfe1e5;
+    font-size: 15px;
+}
+
+.footer2 .container-footer1 {
+	display: flex;
+}
+
+.footer2 .container-footer1 .sobre-google {
+	text-decoration: none;
+	color: #707070;
+	padding-right: 35px;		
+}
+
+.sobre-google:hover {
+	color: red;
+}
+
+.footer2 .container-footer1 .publicidad {
+	text-decoration: none;
+	color: #707070;
+	padding-right: 35px;		
+}
+
+.publicidad:hover {
+	color: red;
+}
+
+.footer2 .container-footer1 .negocios {
+	text-decoration: none;
+	color: #707070;
+	padding-right: 35px;		
+}
+
+.negocios:hover {
+	color: red;
+}
+
+.footer2 .container-footer1 .como-funciona {
+	text-decoration: none;
+	color: #707070;
+	padding-right: 35px;		
+}
+
+.como-funciona:hover {
+	text-decoration: underline;
+}
+
+
+
+
+.footer2 .container-footer2 {
+	position: fixed;
+    right: 16px;
+    color: #707070;
+    text-decoration: none;
+
+}
+
+.footer2 .container-footer2 .links-footer-p2 {
+	text-decoration: none;
+	color: #707070;
+	padding-left: 35px;		
+}
+
+
+
+
+
+
+
+.links-footer-p1:hover {
+	text-decoration: underline;
+}
+
+.links-footer-p2:hover {
+	text-decoration: underline;
+}
